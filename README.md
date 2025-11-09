@@ -41,10 +41,10 @@ aws cloudformation deploy \
   --capabilities CAPABILITY_NAMED_IAM
 Acceder a la aplicación
 
-arduino
-Copy code
+
 http://perfumes-alb-788758788.sa-east-1.elb.amazonaws.com/
-📎 Recursos creados
+
+Recursos creados
 ECR repo: perfumes
 
 Cluster ECS: perfumes-cluster
@@ -66,3 +66,4 @@ Próximos pasos opcionales:
 Agregar HTTPS con AWS Certificate Manager.
 
 Incorporar backend /api y base de datos.
+
